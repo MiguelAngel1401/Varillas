@@ -6,6 +6,8 @@ import torch
 from ultralytics import YOLO  # Importa la clase YOLO desde ultralytics
   # Importa tu clase YOLO
 from io import BytesIO
+import uvicorn
+import os
 
 app = FastAPI()
 
