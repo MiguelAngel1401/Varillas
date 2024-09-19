@@ -10,7 +10,7 @@ from io import BytesIO
 app = FastAPI()
 
 # Cargar el modelo YOLO
-model_path = 'models/best.pt'
+model_path = 'Backend/FastAPI/models/best.pt'
 model = YOLO(model_path)
 
 @app.post("/detect")
