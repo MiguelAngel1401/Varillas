@@ -45,4 +45,4 @@ async def detect(image: UploadFile = File(...)):
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8000))  # Render asigna el puerto dinámicamente
-    uvicorn.run(app, host="0.0.0.0", port=port, timeout_keep_alive=120)
+    uvicorn.run(app, host="0.0.0.0", port=port, timeout_keep_alive=12000)
